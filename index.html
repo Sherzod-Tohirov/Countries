@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <!-- <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="./css/main.min.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__wrapper">
+          <a class="logo" href="./index.html">
+            <img class="logo__img" src="./images/logo.svg" width="233" height="19" alt="countries's logo">
+          </a>
+          <button type="button" class="site-header__btn">Dark Mode</button>
+        </div>
+      </div>
+    </header>
+    <main class="site-body">
+      <section class="countries">
+        <div class="container">
+          <h1 class="visually-hidden">Countries details</h1>
+          <div class="countries__wrapper">
+            <h2 class="visually-hidden">Countries information</h2>
+            <div class="countries__search-wrapper">
+              <form class="countries__form" method="GET" autocomplete="off">
+                <div class="countries__search-input-wrapper">
+                  <input class="countries__search-input" type="search" name="query" placeholder="Search for a country…" aria-label="">
+                </div>
+                <select class="countries__filter" name="filter_query">
+                  <option value="" hidden>Filter by Region</option>
+                  <option value="Africa">Africa</option>
+                  <option value="America">America</option>
+                  <option value="Asia">Asia</option>
+                  <option value="Europa">Europa</option>
+                  <option value="Oceania">Oceania</option>
+                </select>
+              </form>
+            </div>
+            <ul class="countries__list">
+              <li class="countries__item country">
+                <a class="countries__link" href="#">
+                  <img class="countries__img" src="./images/germany.svg" alt="Country image">
+                  <div class="country__info-wrapper">
+                    <h3 class="country__name"> Germany </h3>
+                    <div class="country__details">
+                      <p class="country__desc">
+                        <strong class="country__title" title="Population">Population: </strong>
+                        <span class="country__text" title="81,770,900">81,770,900</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Region">Region: </strong>
+                        <span class="country__text" title="Europe">Europe</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Capital">Capital: </strong>
+                        <span class="country__text" title="Berlin">Berlin</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="countries__item country">
+                <a class="countries__link" href="#">
+                  <img class="countries__img" src="./images/usa.svg" alt="Country image">
+                  <div class="country__info-wrapper">
+                    <h3 class="country__name"> United States of America </h3>
+                    <div class="country__details">
+                      <p class="country__desc">
+                        <strong class="country__title" title="Population">Population: </strong>
+                        <span class="country__text" title="323,947,000<">323,947,000</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Region">Region: </strong>
+                        <span class="country__text" title="Americas">Americas</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Capital">Capital: </strong>
+                        <span class="country__text" title="Washington, D.C.">Washington, D.C.</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="countries__item country">
+                <a class="countries__link" href="#">
+                  <img class="countries__img" src="./images/brazil.svg" alt="Country image">
+                  <div class="country__info-wrapper">
+                    <h3 class="country__name"> Brazil </h3>
+                    <div class="country__details">
+                      <p class="country__desc">
+                        <strong class="country__title" title="Population">Population: </strong>
+                        <span class="country__text" title="206,135,893">206,135,893</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Region">Region: </strong>
+                        <span class="country__text" title="Americas">Americas</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Capital">Capital: </strong>
+                        <span class="country__text" title="Brasilia">Brasilia</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="countries__item country">
+                <a class="countries__link" href="#">
+                  <img class="countries__img" src="./images/iceland.svg" alt="Country image">
+                  <div class="country__info-wrapper">
+                    <h3 class="country__name"> Iceland </h3>
+                    <div class="country__details">
+                      <p class="country__desc">
+                        <strong class="country__title" title="Population">Population: </strong>
+                        <span class="country__text" title="334,300">334,300</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Region">Region: </strong>
+                        <span class="country__text" title="Europe">Europe</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Capital">Capital: </strong>
+                        <span class="country__text" title="Reykjavík">Reykjavík</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="countries__item country">
+                <a class="countries__link" href="#">
+                  <img class="countries__img" src="./images/afganistan.svg" alt="Country image">
+                  <div class="country__info-wrapper">
+                    <h3 class="country__name"> Afghanistan </h3>
+                    <div class="country__details">
+                      <p class="country__desc">
+                        <strong class="country__title" title="Population">Population: </strong>
+                        <span class="country__text" title="27,657,145">27,657,145</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Region">Region: </strong>
+                        <span class="country__text" title="Asia">Asia</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Capital">Capital: </strong>
+                        <span class="country__text" title="Kabul">Kabul</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="countries__item country">
+                <a class="countries__link" href="#">
+                  <img class="countries__img" src="./images/aland.svg" alt="Country image">
+                  <div class="country__info-wrapper">
+                    <h3 class="country__name"> Åland Islands </h3>
+                    <div class="country__details">
+                      <p class="country__desc">
+                        <strong class="country__title" title="Population">Population: </strong>
+                        <span class="country__text" title="28,875">28,875</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Region">Region: </strong>
+                        <span class="country__text" title="Europe">Europe</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Capital">Capital: </strong>
+                        <span class="country__text" title="Mariehamn">Mariehamn</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="countries__item country">
+                <a class="countries__link" href="#">
+                  <img class="countries__img" src="./images/albania.svg" alt="Country image">
+                  <div class="country__info-wrapper">
+                    <h3 class="country__name"> Albania </h3>
+                    <div class="country__details">
+                      <p class="country__desc">
+                        <strong class="country__title" title="Population">Population: </strong>
+                        <span class="country__text" title="2,886,026">2,886,026</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Region">Region: </strong>
+                        <span class="country__text" title="Europe">Europe</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Capital">Capital: </strong>
+                        <span class="country__text" title="Tirana">Tirana</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="countries__item country">
+                <a class="countries__link" href="./html/belgium.html">
+                  <img class="countries__img" src="./images/belgium.svg" alt="Country image">
+                  <div class="country__info-wrapper">
+                    <h3 class="country__name"> Belgium </h3>
+                    <div class="country__details">
+                      <p class="country__desc">
+                        <strong class="country__title" title="Population">Population: </strong>
+                        <span class="country__text" title="11,688,248">11,688,248</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Region">Region: </strong>
+                        <span class="country__text" title="Europe">Europe</span>
+                      </p>
+                      <p class="country__desc">
+                        <strong class="country__title" title="Capital">Capital: </strong>
+                        <span class="country__text" title="Brussels">Brussels</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
