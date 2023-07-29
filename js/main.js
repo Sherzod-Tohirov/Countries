@@ -16,6 +16,7 @@ let elCountryText = document.querySelectorAll('.country__text');
 let elBelgiumBack = document.querySelector('.country-info__back-link');
    elHeaderBtn.addEventListener('click', () => {
    add_toggle(elHeaderBtn, 'dark-mode-text-color');
+   add_toggle(elHeaderBtn, 'site-header__btn--dark-mode');
    add_toggle(elSiteHeader, 'dark-mode-header');
    add_toggle(siteBody, 'dark-mode-main');
    add_toggle(elSearchInput, 'dark-mode-header');
@@ -31,6 +32,7 @@ let elBelgiumBack = document.querySelector('.country-info__back-link');
    }else {
    	 elLogoImg.src = "./images/logodarkmode.svg";
    }
+   
    if(elSearchFilter.style.backgroundImage != 'url("./images/arrdndarkmode.svg")') {
       elSearchFilter.style.backgroundImage = 'url("./images/arrdndarkmode.svg")';
    }else {

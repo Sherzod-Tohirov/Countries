@@ -162,6 +162,11 @@ img {
     content: "";
 }
 
+.site-header__btn--dark-mode::before {
+    background-image: url("../images/darkmodemoon.svg") !important;
+}
+
+
 .site-body {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
